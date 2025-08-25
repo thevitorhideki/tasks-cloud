@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tasks',
+        'NAME': 'postgres',
         'USER': 'cloud',
         'PASSWORD': 'cloud25k',
-        'HOST': '172.16.0.1',
+        'HOST': '172.16.11.1',
         'PORT': '5432',
     }
 }
